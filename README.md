@@ -52,6 +52,8 @@ This configuration allows the server to access external resources while providin
 - Managed SSH security settings using a dedicated configuration file under `/etc/ssh/sshd_config.d/`.
 - Verified successful key-based authentication and rejection of unauthorized authentication attempts.
 
+[View SSH Security Documentation](Security/SSH/README.md)
+
 ## Verification
 
 The implemented configurations were validated through practical testing, including:
