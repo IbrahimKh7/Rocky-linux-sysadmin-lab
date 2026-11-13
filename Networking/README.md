@@ -66,7 +66,7 @@ This dedicated interface enables communication between the Mac host and the Rock
 
 The network configuration was validated through the following checks:
 
-| Test | Expected Result |
+| Test | Observed Result |
 |---|---|
 | `hostnamectl` | Displays `dc-web01` |
 | `nmcli device status` | Both network interfaces connected |
@@ -77,7 +77,7 @@ The network configuration was validated through the following checks:
 
 ![Hostname Verification](Screenshots/hostname-verification.png)
 ![Network Interfaces](Screenshots/network-interfaces.png)
-
+![ip route results](Screenshots/ip-route-results.png)
 
 ## Troubleshooting
 
