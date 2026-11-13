@@ -1,5 +1,3 @@
-# Rocky-linux-sysadmin-lab
-
 # Rocky Linux System Administration Lab
 
 ## Overview
@@ -48,7 +46,6 @@ This configuration allows the server to access external resources while providin
 - Generated an RSA SSH key pair on the host machine and configured public-key authentication.
 - Disabled password-based SSH authentication.
 - Disabled direct root SSH login.
-- Restricted SSH access to the authorized account, `ibrahim_Web`.
 - Managed SSH security settings using a dedicated configuration file under `/etc/ssh/sshd_config.d/`.
 - Verified successful key-based authentication and rejection of unauthorized authentication attempts.
 
