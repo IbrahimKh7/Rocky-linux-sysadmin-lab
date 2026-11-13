@@ -49,7 +49,7 @@ Host dc-web01
     IdentitiesOnly yes
 ```
 
-This configuration specifies the destination IP address, SSH username, and private key.
+This configuration is SSH alias based access specifies the destination IP address, SSH username, and private key instead of constantly typing `ssh -o PreferredAuthentications=publickey -i ~/.ssh/id_rsa_dc_web01 ibrahim_Web@192.168.56.2` each time i ssh to the server 
 
 The `IdentitiesOnly yes` option limits the identities offered by the client to those explicitly configured.
 
