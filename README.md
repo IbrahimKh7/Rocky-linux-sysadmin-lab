@@ -37,8 +37,10 @@ This configuration allows the server to access external resources while providin
 - Assigned a static IPv4 address to the Host-Only interface.
 - Configured the server hostname as `dc-web01`.
 - Established network connectivity between the host machine and Rocky Linux server.
-- Configured hostname-based SSH access from the host machine.
+- Configured hostname-based SSH access from the host machine. Then replaced it with SSH alias-based access
 - Verified interface addressing, routing, and network connectivity.
+- 
+[View Networking Documentation](Networking/README.md)
 
 ### 2. SSH Authentication and Security Hardening
 
@@ -56,7 +58,7 @@ This configuration allows the server to access external resources while providin
 The implemented configurations were validated through practical testing, including:
 
 - Network connectivity and routing checks.
-- Successful SSH connections using the server hostname.
+- Successful SSH connections using configured SSH alias .
 - Successful public-key authentication without a password.
 - Rejected password-based SSH login attempts.
 - Rejected direct root SSH login attempts.
