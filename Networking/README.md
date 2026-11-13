@@ -75,6 +75,10 @@ The network configuration was validated through the following checks:
 | `ping -c 4 8.8.8.8` | Successful external IP connectivity |
 | SSH from Mac | Successful remote access to the Linux server |
 
+![Hostname Verification](screenshots/hostname-verification.png)
+![Network Interfaces](screenshots/network-interfaces.png)
+
+
 ## Troubleshooting
 
 ### Hostname Change Was Not Persistent
